@@ -1,0 +1,20 @@
+D:\My Documents\Visual Studio 2008\Projects\Seguridad\UPC.Seguridad.BL.BE\bin\Debug\UPC.Seguridad.BL.BE.dll
+D:\My Documents\Visual Studio 2008\Projects\Seguridad\UPC.Seguridad.BL.BE\bin\Debug\UPC.Seguridad.BL.BE.pdb
+D:\My Documents\Visual Studio 2008\Projects\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\UPC.Seguridad.BL.BE.dll
+D:\My Documents\Visual Studio 2008\Projects\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\UPC.Seguridad.BL.BE.pdb
+H:\Diseño\ABP2\Seguridad\UPC.Seguridad.BL.BE\bin\Debug\UPC.Seguridad.BL.BE.dll
+H:\Diseño\ABP2\Seguridad\UPC.Seguridad.BL.BE\bin\Debug\UPC.Seguridad.BL.BE.pdb
+H:\Diseño\ABP2\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\ResolveAssemblyReference.cache
+H:\Diseño\ABP2\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\UPC.Seguridad.BL.BE.dll
+H:\Diseño\ABP2\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\UPC.Seguridad.BL.BE.pdb
+D:\Carito\Mis Archivos\Universidad\Carrera\Diseño de Software\ABPv2\Diseño\Seguridad\UPC.Seguridad.BL.BE\bin\Debug\UPC.Seguridad.BL.BE.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Diseño de Software\ABPv2\Diseño\Seguridad\UPC.Seguridad.BL.BE\bin\Debug\UPC.Seguridad.BL.BE.pdb
+D:\Carito\Mis Archivos\Universidad\Carrera\Diseño de Software\ABPv2\Diseño\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\ResolveAssemblyReference.cache
+D:\Carito\Mis Archivos\Universidad\Carrera\Diseño de Software\ABPv2\Diseño\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\UPC.Seguridad.BL.BE.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Diseño de Software\ABPv2\Diseño\Seguridad\UPC.Seguridad.BL.BE\obj\Debug\UPC.Seguridad.BL.BE.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BE\bin\Debug\UPC.Seguridad.BL.BE.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BE\bin\Debug\UPC.Seguridad.BL.BE.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BE\obj\Debug\UPC.Seguridad.BL.BE.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BE\obj\Debug\UPC.Seguridad.BL.BE.pdb

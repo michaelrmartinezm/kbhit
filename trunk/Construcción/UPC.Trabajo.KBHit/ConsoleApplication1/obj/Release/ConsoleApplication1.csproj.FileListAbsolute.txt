@@ -1,0 +1,20 @@
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.BE.dll
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.DALC.dll
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.BE.pdb
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.DALC.pdb
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Users\Carlos Eduardo\UPC\2010-01\Diseño de Software\Trabajo Final\Software\UPC.Trabajo.KBHit\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.BE.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.DALC.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.BE.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.DALC.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\obj\Release\ResolveAssemblyReference.cache
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\ConsoleApplication1\bin\Release\UPC.Trabajo.KBHit.External.pdb
