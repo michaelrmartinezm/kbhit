@@ -1,0 +1,17 @@
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\bin\Release\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\bin\Release\UPC.Trabajo.KBHit.External.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\ResolveAssemblyReference.cache
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.frmNotificacion.resources
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.External.recursos.resources
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.External.csproj.GenerateResource.Cache
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.External.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\bin\Release\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\bin\Release\UPC.Trabajo.KBHit.External.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\ResolveAssemblyReference.cache
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.frmNotificacion.resources
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.External.recursos.resources
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Release\UPC.Trabajo.KBHit.External.pdb

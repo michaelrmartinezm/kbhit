@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AFEC6527-7528-4CB3-8AB1-B4DCB320A1C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UPC.Trabajo.KBHit.DALC</RootNamespace>
+    <AssemblyName>UPC.Trabajo.KBHit.DALC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AerolineaDALC.cs" />
+    <Compile Include="AeropuertoDALC.cs" />
+    <Compile Include="AvionDALC..cs" />
+    <Compile Include="DestinoDALC.cs" />
+    <Compile Include="ExcepcionDALC.cs" />
+    <Compile Include="InformacionVueloDALC.cs" />
+    <Compile Include="IPAeropuertoDALC.cs" />
+    <Compile Include="LogDALC.cs" />
+    <Compile Include="MovimientoDALC.cs" />
+    <Compile Include="PistaDALC.cs" />
+    <Compile Include="PlanVueloDALC.cs" />
+    <Compile Include="PlataformaDALC.cs" />
+    <Compile Include="SalidaDALC.cs" />
+    <Compile Include="SqlAerolineaDALC.cs" />
+    <Compile Include="SqlAeropuertoDALC.cs" />
+    <Compile Include="SqlAvionDALC.cs" />
+    <Compile Include="DALCFactory.cs" />
+    <Compile Include="SqlDALCFactory.cs" />
+    <Compile Include="SqlDestinoDALC.cs" />
+    <Compile Include="SqlExcepcionDALC.cs" />
+    <Compile Include="SqlInformacionVueloDALC.cs" />
+    <Compile Include="SqlIPAeropuertoDALC.cs" />
+    <Compile Include="SqlLogDALC.cs" />
+    <Compile Include="SqlMovimientoDALC.cs" />
+    <Compile Include="SqlPistaDALC.cs" />
+    <Compile Include="SqlPlanVueloDALC.cs" />
+    <Compile Include="SqlPlataformaDALC.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SqlSalidaDALC.cs" />
+    <Compile Include="SqlTipoMovimientoDALC.cs" />
+    <Compile Include="SqlUsuarioDALC.cs" />
+    <Compile Include="TipoMovimientoDALC.cs" />
+    <Compile Include="UsuarioDALC.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UPC.Trabajo.KBHit.BE\UPC.Trabajo.KBHit.BE.csproj">
+      <Project>{517E03C1-F0A2-4A35-B577-3E50A9D024CC}</Project>
+      <Name>UPC.Trabajo.KBHit.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UPC.Trabajo.KBHit.External\UPC.Trabajo.KBHit.External.csproj">
+      <Project>{55C6B5CD-1A1A-4C04-AA47-ADE3F1F5816A}</Project>
+      <Name>UPC.Trabajo.KBHit.External</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

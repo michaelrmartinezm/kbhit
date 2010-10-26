@@ -1,0 +1,24 @@
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BE.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.DALC.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BE.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.DALC.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\ResolveAssemblyReference.cache
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\UPC.Trabajo.KBHit.BC.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\UPC.Trabajo.KBHit.BC.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.dll.config
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Diseño\TrabajoFinal\v1.7\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.External.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.dll.config
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BE.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.DALC.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BE.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.DALC.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.External.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\ResolveAssemblyReference.cache
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\UPC.Trabajo.KBHit.BC.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\UPC.Trabajo.KBHit.BC.pdb
