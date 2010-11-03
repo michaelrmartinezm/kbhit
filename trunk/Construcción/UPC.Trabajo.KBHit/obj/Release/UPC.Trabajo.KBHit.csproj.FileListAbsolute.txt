@@ -83,3 +83,6 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Release\GenerateResource-ResGen.read.1.tlog
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Release\GenerateResource-ResGen.write.1.tlog
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.exe.licenses
+C:\Users\Carlos Eduardo\Sistema de Gestión Aeroportuario\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.exe.config
+C:\Users\Carlos Eduardo\Sistema de Gestión Aeroportuario\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.exe
+C:\Users\Carlos Eduardo\Sistema de Gestión Aeroportuario\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.pdb
