@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace UPC.Trabajo.KBHit
 {
-    public partial class frmFacturacionTUA : Telerik.WinControls.UI.ShapedForm
+    public partial class frmFacturacionTUUA : Telerik.WinControls.UI.ShapedForm
     {
-        public frmFacturacionTUA()
+        public frmFacturacionTUUA()
         {
             InitializeComponent();
         }
