@@ -33,6 +33,8 @@
             this.radTitleBar2 = new Telerik.WinControls.UI.RadTitleBar();
             this.tsbGuardar = new Telerik.WinControls.UI.RadButton();
             this.radProgressBar1 = new Telerik.WinControls.UI.RadProgressBar();
+            this.breezeTheme1 = new Telerik.WinControls.Themes.BreezeTheme();
+            this.aquaTheme1 = new Telerik.WinControls.Themes.AquaTheme();
             ((System.ComponentModel.ISupportInitialize)(this.radTitleBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbGuardar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radProgressBar1)).BeginInit();
@@ -49,7 +51,7 @@
             // 
             // 
             this.radTitleBar2.RootElement.ApplyShapeToControl = true;
-            this.radTitleBar2.Size = new System.Drawing.Size(542, 28);
+            this.radTitleBar2.Size = new System.Drawing.Size(538, 28);
             this.radTitleBar2.TabIndex = 1;
             this.radTitleBar2.TabStop = false;
             this.radTitleBar2.ThemeName = "Breeze";
@@ -85,12 +87,13 @@
             this.radProgressBar1.TabIndex = 3;
             this.radProgressBar1.Text = "radProgressBar1";
             this.radProgressBar1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radProgressBar1.ThemeName = "Office2007Black";
             // 
             // frmEmbarque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 360);
+            this.ClientSize = new System.Drawing.Size(540, 360);
             this.Controls.Add(this.radProgressBar1);
             this.Controls.Add(this.tsbGuardar);
             this.Controls.Add(this.radTitleBar2);
@@ -110,5 +113,7 @@
         private Telerik.WinControls.UI.RadTitleBar radTitleBar2;
         private Telerik.WinControls.UI.RadButton tsbGuardar;
         private Telerik.WinControls.UI.RadProgressBar radProgressBar1;
+        private Telerik.WinControls.Themes.BreezeTheme breezeTheme1;
+        private Telerik.WinControls.Themes.AquaTheme aquaTheme1;
     }
 }

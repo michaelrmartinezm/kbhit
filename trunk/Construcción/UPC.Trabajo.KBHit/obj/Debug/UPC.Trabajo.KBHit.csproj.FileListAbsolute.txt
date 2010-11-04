@@ -101,3 +101,5 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Debug\GenerateResource-ResGen.read.1.tlog
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Debug\GenerateResource-ResGen.write.1.tlog
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Debug\UPC.Trabajo.KBHit.exe.licenses
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Debug\UPC.Trabajo.KBHit.frmEmbarque.resources
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Debug\UPC.Trabajo.KBHit.frmFacturacionTUUA.resources

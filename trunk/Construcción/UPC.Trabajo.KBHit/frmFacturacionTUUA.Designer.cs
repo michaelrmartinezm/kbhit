@@ -1,6 +1,6 @@
 ﻿namespace UPC.Trabajo.KBHit
 {
-    partial class frmFacturacionTUA
+    partial class frmFacturacionTUUA
     {
         /// <summary>
         /// Required designer variable.
@@ -37,6 +37,8 @@
             this.radDateTimePicker1 = new Telerik.WinControls.UI.RadDateTimePicker();
             this.radGridView1 = new Telerik.WinControls.UI.RadGridView();
             this.tsbGuardar = new Telerik.WinControls.UI.RadButton();
+            this.breezeTheme1 = new Telerik.WinControls.Themes.BreezeTheme();
+            this.aquaTheme1 = new Telerik.WinControls.Themes.AquaTheme();
             ((System.ComponentModel.ISupportInitialize)(this.radTitleBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radComboBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
@@ -50,14 +52,14 @@
             // 
             this.radTitleBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.radTitleBar1.Caption = "Facturación TUA";
+            this.radTitleBar1.Caption = "Facturación TUUA";
             this.radTitleBar1.Location = new System.Drawing.Point(1, 1);
             this.radTitleBar1.Name = "radTitleBar1";
             // 
             // 
             // 
             this.radTitleBar1.RootElement.ApplyShapeToControl = true;
-            this.radTitleBar1.Size = new System.Drawing.Size(429, 30);
+            this.radTitleBar1.Size = new System.Drawing.Size(427, 30);
             this.radTitleBar1.TabIndex = 1;
             this.radTitleBar1.TabStop = false;
             this.radTitleBar1.ThemeName = "Breeze";
@@ -136,7 +138,7 @@
             this.tsbGuardar.Text = "Generar Reporte";
             this.tsbGuardar.ThemeName = "Aqua";
             // 
-            // ShapedForm1
+            // frmFacturacionTUUA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -148,9 +150,9 @@
             this.Controls.Add(this.radLabel1);
             this.Controls.Add(this.radComboBox1);
             this.Controls.Add(this.radTitleBar1);
-            this.Name = "ShapedForm1";
+            this.Name = "frmFacturacionTUUA";
             this.Shape = this.roundRectShapeForm;
-            this.Text = "Facturación TUA";
+            this.Text = "Facturación TUUA";
             ((System.ComponentModel.ISupportInitialize)(this.radTitleBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radComboBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
@@ -173,5 +175,7 @@
         private Telerik.WinControls.UI.RadDateTimePicker radDateTimePicker1;
         private Telerik.WinControls.UI.RadGridView radGridView1;
         private Telerik.WinControls.UI.RadButton tsbGuardar;
+        private Telerik.WinControls.Themes.BreezeTheme breezeTheme1;
+        private Telerik.WinControls.Themes.AquaTheme aquaTheme1;
     }
 }
