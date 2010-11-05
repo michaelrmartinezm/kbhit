@@ -81,6 +81,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalidaBE.cs" />
     <Compile Include="TipoMovimientoBE.cs" />
+    <Compile Include="TipoVueloBE.cs" />
+    <Compile Include="TUUABE.cs" />
     <Compile Include="UsuarioBE.cs" />
   </ItemGroup>
   <ItemGroup>
