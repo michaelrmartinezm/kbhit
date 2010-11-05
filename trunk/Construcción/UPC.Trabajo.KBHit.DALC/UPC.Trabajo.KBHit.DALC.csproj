@@ -101,8 +101,12 @@
     </Compile>
     <Compile Include="SqlSalidaDALC.cs" />
     <Compile Include="SqlTipoMovimientoDALC.cs" />
+    <Compile Include="SqlTipoVueloDALC.cs" />
+    <Compile Include="SqlTUUADALC.cs" />
     <Compile Include="SqlUsuarioDALC.cs" />
     <Compile Include="TipoMovimientoDALC.cs" />
+    <Compile Include="TipoVueloDALC.cs" />
+    <Compile Include="TUUADALC.cs" />
     <Compile Include="UsuarioDALC.cs" />
   </ItemGroup>
   <ItemGroup>

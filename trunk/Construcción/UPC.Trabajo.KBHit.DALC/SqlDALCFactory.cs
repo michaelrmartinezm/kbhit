@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace UPC.Trabajo.KBHit.DALC
 {
@@ -89,6 +86,16 @@ namespace UPC.Trabajo.KBHit.DALC
         public override IPAeropuertoDALC getIPAeropuerto()
         {
             return new SqlIPAeropuertoDALC();
+        }
+
+        public override TipoVueloDALC getTipoVuelo()
+        {
+            return new SqlTipoVueloDALC();
+        }
+
+        public override TUUADALC getTUUA()
+        {
+            return new SqlTUUADALC();
         }
     }
 }
