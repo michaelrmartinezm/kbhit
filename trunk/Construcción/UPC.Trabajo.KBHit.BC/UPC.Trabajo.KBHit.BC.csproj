@@ -85,6 +85,7 @@
     </Compile>
     <Compile Include="SalidaBC.cs" />
     <Compile Include="TipoMovimientoBC.cs" />
+    <Compile Include="TipoVueloBC.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\UPC.Trabajo.KBHit.BE\UPC.Trabajo.KBHit.BE.csproj">
