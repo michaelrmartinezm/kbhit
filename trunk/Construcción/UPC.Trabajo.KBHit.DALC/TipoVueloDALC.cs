@@ -9,6 +9,7 @@ namespace UPC.Trabajo.KBHit.DALC
     {
         public abstract int InsertarTipoVueloBE(TipoVueloBE obj);
         public abstract void ActualizarTipoVueloBE(TipoVueloBE obj);
-        public abstract TipoVueloBE ObtenerTipoVueloBE(int iCod);        
+        public abstract TipoVueloBE ObtenerTipoVueloBE(int iCod);
+        public abstract List<TipoVueloBE> ListarTipoVueloBE();
     }
 }

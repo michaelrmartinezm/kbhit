@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using UPC.Trabajo.KBHit.BE;
@@ -168,6 +169,54 @@ namespace UPC.Trabajo.KBHit.DALC
 
                 cmd.Dispose();
                 Conn.Dispose();
+            }
+            catch (Exception ex)
+            {
+                cmd.Dispose();
+                Conn.Dispose();
+                throw ex;
+            }
+        }
+
+        public override List<TipoVueloBE> ListarTipoVueloBE()
+        {
+            SqlDataReader dr;
+            SqlConnection Conn = null;
+            SqlCommand cmd = null;
+            String sqlTipoVueloBEListar;
+
+            try
+            {
+                Conn = new SqlConnection(Properties.Settings.Default.sCadenaConexion);
+                sqlTipoVueloBEListar = "uspTipoVueloListar";
+                cmd = Conn.CreateCommand();
+                cmd.CommandText = sqlTipoVueloBEListar;
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Connection.Open();
+                dr = cmd.ExecuteReader();
+
+                List<TipoVueloBE> lst;
+                lst = new List<TipoVueloBE>();
+
+                TipoVueloBE obj;
+
+                while (dr.Read())
+                {
+                    obj = new TipoVueloBE();
+                    obj.CodTipoVuelo = dr.GetInt32(dr.GetOrdinal("CodTipoVuelo"));
+                    obj.TipoVuelo = dr.GetString(dr.GetOrdinal("TipoVuelo"));
+                    obj.Impuesto = dr.GetFloat(dr.GetOrdinal("Impuesto"));
+
+                    lst.Add(obj);
+                }
+
+                cmd.Connection.Close();
+
+                cmd.Dispose();
+                Conn.Dispose();
+
+                return lst;
             }
             catch (Exception ex)
             {
