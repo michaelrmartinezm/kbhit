@@ -13,11 +13,15 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            if (disposing)
             {
-                components.Dispose();
+                if (components != null)
+                {
+                    components.Dispose();
+                }
             }
             base.Dispose(disposing);
+            objEmbarque = null;
         }
 
         #region Windows Form Designer generated code
@@ -73,6 +77,7 @@
             this.tsbGuardar.TabIndex = 2;
             this.tsbGuardar.Text = "Pase su tarjeta";
             this.tsbGuardar.ThemeName = "Aqua";
+            this.tsbGuardar.Click += new System.EventHandler(this.btnPasarBoleto);
             // 
             // radProgressBar1
             // 
