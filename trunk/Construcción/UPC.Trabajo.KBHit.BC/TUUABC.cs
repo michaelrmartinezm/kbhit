@@ -7,7 +7,7 @@ namespace UPC.Trabajo.KBHit.BC
 {
     public class TUUABC
     {
-        public int RegistrarTUUA(TipoVueloBE objTipoVueloBE, AerolineaBE objAerolineaBE, TUUABE objTUUABE)
+        public int RegistrarTUUA(TUUABE objTUUABE)
         {
             int result = 0;
             try
