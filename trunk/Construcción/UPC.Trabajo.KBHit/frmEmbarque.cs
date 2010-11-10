@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
 using UPC.Trabajo.KBHit.BC;
 using UPC.Trabajo.KBHit.BE;
 

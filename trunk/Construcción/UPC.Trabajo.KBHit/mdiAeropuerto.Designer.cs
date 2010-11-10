@@ -68,6 +68,12 @@
             this.radRibbonBarButtonGroup4 = new Telerik.WinControls.UI.RadRibbonBarButtonGroup();
             this.radButtonElement4 = new Telerik.WinControls.UI.RadButtonElement();
             this.office2007BlackTheme1 = new Telerik.WinControls.Themes.Office2007BlackTheme();
+            this.radRibbonBarGroup8 = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.radRibbonBarGroup9 = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.radRibbonBarButtonGroup13 = new Telerik.WinControls.UI.RadRibbonBarButtonGroup();
+            this.radButtonElement13 = new Telerik.WinControls.UI.RadButtonElement();
+            this.radRibbonBarButtonGroup14 = new Telerik.WinControls.UI.RadRibbonBarButtonGroup();
+            this.radButtonElement14 = new Telerik.WinControls.UI.RadButtonElement();
             ((System.ComponentModel.ISupportInitialize)(this.radStatusStrip1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radRibbonBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
@@ -79,7 +85,7 @@
             this.radStatusStrip1.LayoutStyle = Telerik.WinControls.UI.RadStatusBarLayoutStyle.Stack;
             this.radStatusStrip1.Location = new System.Drawing.Point(0, 412);
             this.radStatusStrip1.Name = "radStatusStrip1";
-            this.radStatusStrip1.Size = new System.Drawing.Size(879, 24);
+            this.radStatusStrip1.Size = new System.Drawing.Size(1008, 24);
             this.radStatusStrip1.SizingGrip = false;
             this.radStatusStrip1.TabIndex = 1;
             this.radStatusStrip1.Text = "radStatusStrip1";
@@ -120,7 +126,7 @@
             // 
             // 
             this.radRibbonBar1.RootElement.AutoSizeMode = Telerik.WinControls.RadAutoSizeMode.WrapAroundChildren;
-            this.radRibbonBar1.Size = new System.Drawing.Size(879, 152);
+            this.radRibbonBar1.Size = new System.Drawing.Size(1008, 152);
             this.radRibbonBar1.StartButtonImage = ((System.Drawing.Image)(resources.GetObject("radRibbonBar1.StartButtonImage")));
             this.radRibbonBar1.StartMenuWidth = 0;
             this.radRibbonBar1.TabIndex = 0;
@@ -150,7 +156,9 @@
             this.radRibbonBarGroup4,
             this.radRibbonBarGroup5,
             this.radRibbonBarGroup6,
-            this.radRibbonBarGroup7});
+            this.radRibbonBarGroup7,
+            this.radRibbonBarGroup8,
+            this.radRibbonBarGroup9});
             this.ribbonTab1.Margin = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.ribbonTab1.Name = "ribbonTab1";
             this.ribbonTab1.StretchHorizontally = false;
@@ -390,11 +398,53 @@
             this.radButtonElement4.Name = "radButtonElement4";
             this.radButtonElement4.Text = "Modificar";
             // 
+            // radRibbonBarGroup8
+            // 
+            this.radRibbonBarGroup8.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radRibbonBarButtonGroup13});
+            this.radRibbonBarGroup8.Name = "radRibbonBarGroup8";
+            this.radRibbonBarGroup8.Text = "Embarque";
+            // 
+            // radRibbonBarGroup9
+            // 
+            this.radRibbonBarGroup9.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radRibbonBarButtonGroup14});
+            this.radRibbonBarGroup9.Name = "radRibbonBarGroup9";
+            this.radRibbonBarGroup9.Text = "Facturación";
+            // 
+            // radRibbonBarButtonGroup13
+            // 
+            this.radRibbonBarButtonGroup13.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radButtonElement13});
+            this.radRibbonBarButtonGroup13.Name = "radRibbonBarButtonGroup13";
+            this.radRibbonBarButtonGroup13.Text = "radRibbonBarButtonGroup13";
+            // 
+            // radButtonElement13
+            // 
+            this.radButtonElement13.Class = "ButtonElement";
+            this.radButtonElement13.Name = "radButtonElement13";
+            this.radButtonElement13.Text = "Pase de Boleto";
+            this.radButtonElement13.Click += new System.EventHandler(this.InPaseBoleto);
+            // 
+            // radRibbonBarButtonGroup14
+            // 
+            this.radRibbonBarButtonGroup14.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radButtonElement14});
+            this.radRibbonBarButtonGroup14.Name = "radRibbonBarButtonGroup14";
+            this.radRibbonBarButtonGroup14.Text = "radRibbonBarButtonGroup14";
+            // 
+            // radButtonElement14
+            // 
+            this.radButtonElement14.Class = "ButtonElement";
+            this.radButtonElement14.Name = "radButtonElement14";
+            this.radButtonElement14.Text = "TUUA";
+            this.radButtonElement14.Click += new System.EventHandler(this.InTUUA);
+            // 
             // mdiAeropuerto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(879, 436);
+            this.ClientSize = new System.Drawing.Size(1008, 436);
             this.Controls.Add(this.radStatusStrip1);
             this.Controls.Add(this.radRibbonBar1);
             this.IsMdiContainer = true;
@@ -453,5 +503,11 @@
         private Telerik.WinControls.UI.RadButtonElement radButtonElement10;
         private Telerik.WinControls.UI.RadButtonElement radButtonElement11;
         private Telerik.WinControls.UI.RadButtonElement radButtonElement12;
+        private Telerik.WinControls.UI.RadRibbonBarGroup radRibbonBarGroup8;
+        private Telerik.WinControls.UI.RadRibbonBarButtonGroup radRibbonBarButtonGroup13;
+        private Telerik.WinControls.UI.RadButtonElement radButtonElement13;
+        private Telerik.WinControls.UI.RadRibbonBarGroup radRibbonBarGroup9;
+        private Telerik.WinControls.UI.RadRibbonBarButtonGroup radRibbonBarButtonGroup14;
+        private Telerik.WinControls.UI.RadButtonElement radButtonElement14;
     }
 }

@@ -20,6 +20,7 @@ namespace UPC.Trabajo.KBHit.DALC
             SqlParameter impuesto;
             SqlParameter codTipoVuelo;
             SqlParameter codAerolinea;
+            SqlParameter fecha;
             
             int iCod;
 
@@ -62,12 +63,18 @@ namespace UPC.Trabajo.KBHit.DALC
                 codAerolinea.SqlDbType = SqlDbType.Int;
                 codAerolinea.Value = objTUUABE.ObjAerolineaBE.CodAerolinea;
 
+                fecha = cmd.CreateParameter();
+                fecha.ParameterName = "@fecha";
+                fecha.SqlDbType = SqlDbType.DateTime;
+                fecha.SqlValue = objTUUABE.Fecha;
+
                 cmd.Parameters.Add(codTUUA);
                 cmd.Parameters.Add(codBoleto);
                 cmd.Parameters.Add(codVuelo);
                 cmd.Parameters.Add(impuesto);
                 cmd.Parameters.Add(codTipoVuelo);
                 cmd.Parameters.Add(codAerolinea);
+                cmd.Parameters.Add(fecha);
 
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
@@ -125,6 +132,7 @@ namespace UPC.Trabajo.KBHit.DALC
                     obj.CodBoleto = dr.GetInt32(dr.GetOrdinal("CodBoleto"));
                     obj.CodVuelo = dr.GetInt32(dr.GetOrdinal("CodVuelo"));
                     obj.Impuesto = dr.GetFloat(dr.GetOrdinal("Impuesto"));
+                    obj.Fecha = dr.GetDateTime(dr.GetOrdinal("Fecha"));
                     DALCFactory FabricaDALC = DALCFactory.getFabrica(DALCFactory.SQL);
                     TipoVueloDALC objTipoVueloDALC = FabricaDALC.getTipoVuelo();
                     TipoVueloBE objTipoVueloBE = objTipoVueloDALC.ObtenerTipoVueloBE(dr.GetInt32(dr.GetOrdinal("CodTipoVuelo")));
@@ -179,6 +187,7 @@ namespace UPC.Trabajo.KBHit.DALC
                     obj.CodBoleto = dr.GetInt32(dr.GetOrdinal("CodBoleto"));
                     obj.CodVuelo = dr.GetInt32(dr.GetOrdinal("CodVuelo"));
                     obj.Impuesto = dr.GetFloat(dr.GetOrdinal("Impuesto"));
+                    obj.Fecha = dr.GetDateTime(dr.GetOrdinal("Fecha"));
                     DALCFactory FabricaDALC = DALCFactory.getFabrica(DALCFactory.SQL);
                     TipoVueloDALC objTipoVueloDALC = FabricaDALC.getTipoVuelo();
                     TipoVueloBE objTipoVueloBE = objTipoVueloDALC.ObtenerTipoVueloBE(dr.GetInt32(dr.GetOrdinal("CodTipoVuelo")));

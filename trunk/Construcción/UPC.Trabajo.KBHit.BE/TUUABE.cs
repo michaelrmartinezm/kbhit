@@ -10,6 +10,13 @@ namespace UPC.Trabajo.KBHit.BE
         private TipoVueloBE objTipoVueloBE;
         private AerolineaBE objAerolineaBE;
         private int codVuelo;
+        private DateTime fecha;
+
+        public DateTime Fecha
+        {
+            get { return fecha; }
+            set { fecha = value; }
+        }
 
         public int CodVuelo
         {

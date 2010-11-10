@@ -205,6 +205,36 @@ namespace UPC.Trabajo.KBHit
                 }
 
             }
+        }
+
+        private void InPaseBoleto(object sender, EventArgs e)
+        {
+            try
+            {
+                frmEmbarque frm = frmEmbarque.Instance();
+                frm.MdiParent = this;
+                frm.Show();
+                frm.BringToFront();
+            }
+            catch (Exception ex)
+            {
+                Funciones.RegistrarExcepcion(ex);
+            }
+        }
+
+        private void InTUUA(object sender, EventArgs e)
+        {
+            try
+            {
+                frmFacturacionTUUA frm = frmFacturacionTUUA.Instance();
+                frm.MdiParent = this;
+                frm.Show();
+                frm.BringToFront();
+            }
+            catch (Exception ex)
+            {
+                Funciones.RegistrarExcepcion(ex);
+            }
         }        
     }
 }
