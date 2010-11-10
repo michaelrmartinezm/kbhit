@@ -121,9 +121,9 @@ namespace UPC.Trabajo.KBHit.DALC
 
                 if (dr.Read())
                 {
-                    obj.CodAerolinea = dr.GetInt32(dr.GetOrdinal("Id"));
+                    obj.CodAerolinea = dr.GetInt32(dr.GetOrdinal("CodAerolinea"));
                     obj.Nombre = dr.GetString(dr.GetOrdinal("Nombre"));
-		            obj.Ruc = dr.GetString(dr.GetOrdinal("Ruc"));
+		            obj.Ruc = dr.GetString(dr.GetOrdinal("RUC"));
 		            obj.Procedencia = dr.GetString(dr.GetOrdinal("Procedencia"));
                     obj.Logotipo = (byte[])dr.GetSqlBinary(dr.GetOrdinal("Logotipo"));
                 }
@@ -207,11 +207,11 @@ namespace UPC.Trabajo.KBHit.DALC
                 while (dr.Read())
                 {
                     obj = new AerolineaBE();
-                    obj.CodAerolinea = dr.GetInt32(dr.GetOrdinal("Id"));
+                    obj.CodAerolinea = dr.GetInt32(dr.GetOrdinal("CodAerolinea"));
                     obj.Nombre = dr.GetString(dr.GetOrdinal("Nombre"));
-                    obj.Ruc = dr.GetString(dr.GetOrdinal("Ruc"));
-                    obj.Procedencia = dr.GetString(dr.GetOrdinal("procedencia"));
-                    obj.Logotipo = (byte[])dr.GetSqlBinary(dr.GetOrdinal("Logotipo"));
+                    obj.Ruc = dr.GetString(dr.GetOrdinal("RUC"));
+                    obj.Procedencia = dr.GetString(dr.GetOrdinal("Procedencia"));
+                    //obj.Logotipo = (byte[])dr.GetSqlBinary(dr.GetOrdinal("Logotipo"));
                     
                     lst.Add(obj);
                 }

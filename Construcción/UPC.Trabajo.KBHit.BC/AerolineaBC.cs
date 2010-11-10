@@ -8,8 +8,7 @@ using UPC.Trabajo.KBHit.DALC;
 namespace UPC.Trabajo.KBHit.BC
 {
     public class AerolineaBC
-    {
-     
+    {     
         public int RegistrarAerolinea(AerolineaBE objAerolineaBE)
         {
             int result = 0;
@@ -88,7 +87,7 @@ namespace UPC.Trabajo.KBHit.BC
             {
                 DALCFactory FabricaDALC = DALCFactory.getFabrica(DALCFactory.SQL);
                 AerolineaDALC objAerolineaDALC = FabricaDALC.getAerolineaDALC();
-                lsAerolineas=objAerolineaDALC.ListarAerolineaBE();
+                lsAerolineas = objAerolineaDALC.ListarAerolineaBE();
             }
             catch (Exception ex)
             {
