@@ -32,13 +32,14 @@ namespace UPC.Trabajo.KBHit
         {
             try 
             {
-                if (cbAerolineaB.SelectedIndex != -1)
+                if (cbAerolinea.SelectedIndex != -1)
                 {
-
                     TUUABC objTUUABC = new TUUABC();
                     TUUABE objTUUABE = new TUUABE();
+                    objTUUABE.ObjAerolineaBE = new AerolineaBE();
 
-                    objTUUABE.ObjAerolineaBE.Nombre = cbAerolineaB.Items[cbAerolineaB.SelectedIndex].Text;
+                    String aerolinea = cbAerolinea.Items[cbAerolinea.SelectedIndex].Text;
+                    objTUUABE.ObjAerolineaBE.Nombre = aerolinea;
                     objTUUABE.Fecha = cbFecha.Value;
 
                     AerolineaBC objAerolineaBC = new AerolineaBC();
@@ -54,41 +55,44 @@ namespace UPC.Trabajo.KBHit
                         }
                     }
 
-                    List<TUUABE> lst = new List<TUUABE>();
-                    lst = objTUUABC.ListarTUUAs();
-
-                    List<TUUABE> lista = new List<TUUABE>();
-
-                    foreach (TUUABE cDto in lst)
+                    if (objTUUABE.ObjAerolineaBE.CodAerolinea != 0)
                     {
-                        if (cDto.ObjAerolineaBE.CodAerolinea == objTUUABE.ObjAerolineaBE.CodAerolinea)
+                        List<TUUABE> lst = new List<TUUABE>();
+                        lst = objTUUABC.ListarTUUAs();
+
+                        List<TUUABE> lista = new List<TUUABE>();
+
+                        foreach (TUUABE cDto in lst)
                         {
-                            lista.Add(cDto);
+                            if (cDto.ObjAerolineaBE.CodAerolinea == objTUUABE.ObjAerolineaBE.CodAerolinea  && cDto.Fecha.Date == objTUUABE.Fecha.Date)
+                            {
+                                lista.Add(cDto);
+                            }
                         }
-                    }
 
-                    if (lista != null)
-                    {
-                        dgvTUUA.DataSource = lista;
+                        if (lista != null)
+                        {
+                            dgvTUUA.DataSource = lista;
 
-                        dgvTUUA.AllowDrop = false;
+                            dgvTUUA.AllowDrop = false;
 
-                        // Opcion a seleccionar varios registros
-                        dgvTUUA.MultiSelect = false;
+                            // Opcion a seleccionar varios registros
+                            dgvTUUA.MultiSelect = false;
 
-                        // Para evitar poder modificar los datos de la grilla
-                        dgvTUUA.ReadOnly = true;
+                            // Para evitar poder modificar los datos de la grilla
+                            dgvTUUA.ReadOnly = true;
 
-                        // Para poder hacer clic en cualquier parte de la fila y que toda la fila aparezca selecionada
-                        dgvTUUA.SelectionMode = Telerik.WinControls.UI.GridViewSelectionMode.FullRowSelect;
+                            // Para poder hacer clic en cualquier parte de la fila y que toda la fila aparezca selecionada
+                            dgvTUUA.SelectionMode = Telerik.WinControls.UI.GridViewSelectionMode.FullRowSelect;
 
-                        this.dgvTUUA.Columns["CodTUUA"].HeaderText = "Código";
-                        this.dgvTUUA.Columns["CodVuelo"].HeaderText = "Vuelo";
-                        this.dgvTUUA.Columns["CodBoleto"].HeaderText = "Boleto";
-                        this.dgvTUUA.Columns["Impuesto"].HeaderText = "Impuesto";
-                        this.dgvTUUA.Columns["CodTipoVuelo"].IsVisible = false;
-                        this.dgvTUUA.Columns["Fecha"].IsVisible = false;
-                        this.dgvTUUA.Columns["Aerolinea"].IsVisible = false;
+                            this.dgvTUUA.Columns["Fecha"].IsVisible = false;
+                            this.dgvTUUA.Columns["CodVuelo"].HeaderText = "Tipo Vuelo";
+                            this.dgvTUUA.Columns["ObjAerolineaBE"].IsVisible = false;
+                            this.dgvTUUA.Columns["ObjTipoVueloBE"].IsVisible = false;
+                            this.dgvTUUA.Columns["Impuesto"].HeaderText = "Impuesto";
+                            this.dgvTUUA.Columns["CodBoleto"].HeaderText = "Boleto";
+                            this.dgvTUUA.Columns["CodTUUA"].IsVisible = false;
+                        }
                     }
 
                 }
@@ -113,7 +117,7 @@ namespace UPC.Trabajo.KBHit
                     {
                         Telerik.WinControls.UI.RadComboBoxItem item = new Telerik.WinControls.UI.RadComboBoxItem();
                         item.Text = cDto.Nombre;
-                        cbAerolineaB.Items.Add(item);
+                        cbAerolinea.Items.Add(item);
                     }
                 }
             }
@@ -125,7 +129,7 @@ namespace UPC.Trabajo.KBHit
 
         private void LimpiarCombo()
         {
-            cbAerolineaB.Items.Clear();
+            cbAerolinea.Items.Clear();
         }
     }
 }
