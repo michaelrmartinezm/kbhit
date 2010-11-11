@@ -107,7 +107,7 @@ namespace UPC.Trabajo.KBHit.DALC
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 id = cmd.CreateParameter();
-                id.ParameterName = "@id";
+                id.ParameterName = "@CodAerolinea";
                 id.SqlDbType = SqlDbType.Int;
                 id.SqlValue = iCod;
 
@@ -125,7 +125,7 @@ namespace UPC.Trabajo.KBHit.DALC
                     obj.Nombre = dr.GetString(dr.GetOrdinal("Nombre"));
 		            obj.Ruc = dr.GetString(dr.GetOrdinal("RUC"));
 		            obj.Procedencia = dr.GetString(dr.GetOrdinal("Procedencia"));
-                    obj.Logotipo = (byte[])dr.GetSqlBinary(dr.GetOrdinal("Logotipo"));
+                    //obj.Logotipo = (byte[])dr.GetSqlBinary(dr.GetOrdinal("Logotipo"));
                 }
 
                 cmd.Connection.Close();

@@ -42,7 +42,7 @@
             this.breezeTheme1 = new Telerik.WinControls.Themes.BreezeTheme();
             this.aquaTheme1 = new Telerik.WinControls.Themes.AquaTheme();
             this.tsbVerInfo = new Telerik.WinControls.UI.RadButton();
-            this.cbAerolineaB = new Telerik.WinControls.UI.RadComboBox();
+            this.cbAerolinea = new Telerik.WinControls.UI.RadComboBox();
             this.roundRectShape1 = new Telerik.WinControls.RoundRectShape(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.radTitleBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
@@ -51,7 +51,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvTUUA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbGuardar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbVerInfo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAerolineaB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAerolinea)).BeginInit();
             this.SuspendLayout();
             // 
             // radTitleBar1
@@ -141,24 +141,24 @@
             this.tsbVerInfo.ThemeName = "Aqua";
             this.tsbVerInfo.Click += new System.EventHandler(this.tsbVerInformacion);
             // 
-            // cbAerolineaB
+            // cbAerolinea
             // 
-            this.cbAerolineaB.Location = new System.Drawing.Point(120, 66);
-            this.cbAerolineaB.Name = "cbAerolineaB";
+            this.cbAerolinea.Location = new System.Drawing.Point(120, 66);
+            this.cbAerolinea.Name = "cbAerolinea";
             // 
             // 
             // 
-            this.cbAerolineaB.RootElement.AutoSizeMode = Telerik.WinControls.RadAutoSizeMode.WrapAroundChildren;
-            this.cbAerolineaB.Size = new System.Drawing.Size(220, 20);
-            this.cbAerolineaB.TabIndex = 11;
-            this.cbAerolineaB.TabStop = false;
+            this.cbAerolinea.RootElement.AutoSizeMode = Telerik.WinControls.RadAutoSizeMode.WrapAroundChildren;
+            this.cbAerolinea.Size = new System.Drawing.Size(220, 20);
+            this.cbAerolinea.TabIndex = 11;
+            this.cbAerolinea.TabStop = false;
             // 
             // frmFacturacionTUUA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 468);
-            this.Controls.Add(this.cbAerolineaB);
+            this.Controls.Add(this.cbAerolinea);
             this.Controls.Add(this.tsbVerInfo);
             this.Controls.Add(this.tsbGuardar);
             this.Controls.Add(this.dgvTUUA);
@@ -176,7 +176,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvTUUA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbGuardar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbVerInfo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAerolineaB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAerolinea)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,7 +193,7 @@
         private Telerik.WinControls.Themes.BreezeTheme breezeTheme1;
         private Telerik.WinControls.Themes.AquaTheme aquaTheme1;
         private Telerik.WinControls.UI.RadButton tsbVerInfo;
-        private Telerik.WinControls.UI.RadComboBox cbAerolineaB;
+        private Telerik.WinControls.UI.RadComboBox cbAerolinea;
         private Telerik.WinControls.RoundRectShape roundRectShape1;
     }
 }

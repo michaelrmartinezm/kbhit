@@ -105,7 +105,7 @@ namespace UPC.Trabajo.KBHit.DALC
                 {
                     obj.CodTipoVuelo = dr.GetInt32(dr.GetOrdinal("CodTipoVuelo"));
                     obj.TipoVuelo = dr.GetString(dr.GetOrdinal("TipoVuelo"));
-                    obj.Impuesto = dr.GetFloat(dr.GetOrdinal("Impuesto"));
+                    obj.Impuesto = (float)dr.GetDouble(dr.GetOrdinal("Impuesto"));
                 }
 
                 cmd.Connection.Close();
