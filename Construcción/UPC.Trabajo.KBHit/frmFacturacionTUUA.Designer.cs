@@ -33,9 +33,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.roundRectShapeForm = new Telerik.WinControls.RoundRectShape(this.components);
             this.radTitleBar1 = new Telerik.WinControls.UI.RadTitleBar();
-            this.cbAerolineaB = new Telerik.WinControls.UI.RadComboBox();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.cbFecha = new Telerik.WinControls.UI.RadDateTimePicker();
@@ -44,15 +42,16 @@
             this.breezeTheme1 = new Telerik.WinControls.Themes.BreezeTheme();
             this.aquaTheme1 = new Telerik.WinControls.Themes.AquaTheme();
             this.tsbVerInfo = new Telerik.WinControls.UI.RadButton();
-            this.cbAerolinea = new System.Windows.Forms.ComboBox();
+            this.cbAerolineaB = new Telerik.WinControls.UI.RadComboBox();
+            this.roundRectShape1 = new Telerik.WinControls.RoundRectShape(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.radTitleBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAerolineaB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbFecha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTUUA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbGuardar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbVerInfo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAerolineaB)).BeginInit();
             this.SuspendLayout();
             // 
             // radTitleBar1
@@ -78,19 +77,6 @@
             ((Telerik.WinControls.Primitives.FillPrimitive)(this.radTitleBar1.GetChildAt(0).GetChildAt(2).GetChildAt(2).GetChildAt(2).GetChildAt(0))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             ((Telerik.WinControls.Layouts.ImageAndTextLayoutPanel)(this.radTitleBar1.GetChildAt(0).GetChildAt(2).GetChildAt(2).GetChildAt(2).GetChildAt(1))).Enabled = false;
             ((Telerik.WinControls.Layouts.ImageAndTextLayoutPanel)(this.radTitleBar1.GetChildAt(0).GetChildAt(2).GetChildAt(2).GetChildAt(2).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
-            // cbAerolineaB
-            // 
-            this.cbAerolineaB.Location = new System.Drawing.Point(120, 37);
-            this.cbAerolineaB.Name = "cbAerolineaB";
-            // 
-            // 
-            // 
-            this.cbAerolineaB.RootElement.AutoSizeMode = Telerik.WinControls.RadAutoSizeMode.WrapAroundChildren;
-            this.cbAerolineaB.Size = new System.Drawing.Size(262, 20);
-            this.cbAerolineaB.TabIndex = 2;
-            this.cbAerolineaB.TabStop = false;
-            this.cbAerolineaB.Text = "Seleccione una Aerolinea";
             // 
             // radLabel1
             // 
@@ -155,39 +141,42 @@
             this.tsbVerInfo.ThemeName = "Aqua";
             this.tsbVerInfo.Click += new System.EventHandler(this.tsbVerInformacion);
             // 
-            // cbAerolinea
+            // cbAerolineaB
             // 
-            this.cbAerolinea.FormattingEnabled = true;
-            this.cbAerolinea.Location = new System.Drawing.Point(121, 64);
-            this.cbAerolinea.Name = "cbAerolinea";
-            this.cbAerolinea.Size = new System.Drawing.Size(260, 21);
-            this.cbAerolinea.TabIndex = 10;
+            this.cbAerolineaB.Location = new System.Drawing.Point(120, 66);
+            this.cbAerolineaB.Name = "cbAerolineaB";
+            // 
+            // 
+            // 
+            this.cbAerolineaB.RootElement.AutoSizeMode = Telerik.WinControls.RadAutoSizeMode.WrapAroundChildren;
+            this.cbAerolineaB.Size = new System.Drawing.Size(220, 20);
+            this.cbAerolineaB.TabIndex = 11;
+            this.cbAerolineaB.TabStop = false;
             // 
             // frmFacturacionTUUA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 468);
-            this.Controls.Add(this.cbAerolinea);
+            this.Controls.Add(this.cbAerolineaB);
             this.Controls.Add(this.tsbVerInfo);
             this.Controls.Add(this.tsbGuardar);
             this.Controls.Add(this.dgvTUUA);
             this.Controls.Add(this.cbFecha);
             this.Controls.Add(this.radLabel2);
             this.Controls.Add(this.radLabel1);
-            this.Controls.Add(this.cbAerolineaB);
             this.Controls.Add(this.radTitleBar1);
             this.Name = "frmFacturacionTUUA";
-            this.Shape = this.roundRectShapeForm;
+            this.Shape = this.roundRectShape1;
             this.Text = "Facturación TUUA";
             ((System.ComponentModel.ISupportInitialize)(this.radTitleBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAerolineaB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbFecha)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTUUA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbGuardar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbVerInfo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAerolineaB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,9 +184,7 @@
 
         #endregion
 
-        private Telerik.WinControls.RoundRectShape roundRectShapeForm;
         private Telerik.WinControls.UI.RadTitleBar radTitleBar1;
-        private Telerik.WinControls.UI.RadComboBox cbAerolineaB;
         private Telerik.WinControls.UI.RadLabel radLabel1;
         private Telerik.WinControls.UI.RadLabel radLabel2;
         private Telerik.WinControls.UI.RadDateTimePicker cbFecha;
@@ -206,6 +193,7 @@
         private Telerik.WinControls.Themes.BreezeTheme breezeTheme1;
         private Telerik.WinControls.Themes.AquaTheme aquaTheme1;
         private Telerik.WinControls.UI.RadButton tsbVerInfo;
-        private System.Windows.Forms.ComboBox cbAerolinea;
+        private Telerik.WinControls.UI.RadComboBox cbAerolineaB;
+        private Telerik.WinControls.RoundRectShape roundRectShape1;
     }
 }

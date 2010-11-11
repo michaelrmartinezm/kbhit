@@ -109,16 +109,11 @@ namespace UPC.Trabajo.KBHit
 
                 if (lstAerolinea != null)
                 {
-                    //Telerik.WinControls.RadItem item = new Telerik.WinControls.RadItem();
-
                     foreach (AerolineaBE cDto in lstAerolinea)
-                    {                        
-                        //item.Text = cDto.Nombre;
-                        //item.Name = "Element" + cbAerolineaB.Items.Count.ToString();
-                        cbAerolinea.Items.Add(cDto.Nombre);
-                        //cbAerolinea.Items.AddRange(new Telerik.WinControls.RadItem[] {item});
-                        //cbAerolinea.Items.Insert(cbAerolinea.Items.Count, item);
-                        //cbAerolinea.Items.Add(cDto.Nombre).ToString();
+                    {
+                        Telerik.WinControls.UI.RadComboBoxItem item = new Telerik.WinControls.UI.RadComboBoxItem();
+                        item.Text = cDto.Nombre;
+                        cbAerolineaB.Items.Add(item);
                     }
                 }
             }
