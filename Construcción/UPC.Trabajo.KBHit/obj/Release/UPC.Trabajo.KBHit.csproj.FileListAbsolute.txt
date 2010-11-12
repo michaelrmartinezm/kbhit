@@ -83,3 +83,42 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Release\GenerateResource-ResGen.read.1.tlog
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Release\GenerateResource-ResGen.write.1.tlog
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.exe.licenses
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.exe.config
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.exe
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\ResolveAssemblyReference.cache
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmAerolineas.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmAeropuerto.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmAproximacion.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmAvion.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmAviones.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmDisponibilidad.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmEmbarque.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmPista.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmPlandeVuelo.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmPlandeVuelos.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmPlataforma.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmAerolinea.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.mdiAeropuerto.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.Properties.Resources.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.recursos.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmSesion.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\UPC.Trabajo.KBHit.frmFacturacionTUUA.resources
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.exe
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Seguridad.BL.BC.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Seguridad.BL.BE.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.BC.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.BE.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.External.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Seguridad.DL.DALC.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.DALC.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Seguridad.BL.BC.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Seguridad.BL.BE.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.BC.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.BE.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.External.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Seguridad.DL.DALC.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit\bin\Release\UPC.Trabajo.KBHit.DALC.pdb

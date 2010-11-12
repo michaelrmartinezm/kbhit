@@ -26,7 +26,7 @@ namespace UPC.Trabajo.KBHit.DALC.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=(local); database=Aeropuerto; User Id=sa; Pwd=sa")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=(local); database=Aeropuerto; User Id=sa; Pwd=password")]
         public string sCadenaConexion {
             get {
                 return ((string)(this["sCadenaConexion"]));
