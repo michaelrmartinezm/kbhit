@@ -14,11 +14,3 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\obj\Release\ResolveAssemblyReference.cache
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\obj\Release\UPC.Seguridad.DL.DALC.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\obj\Release\UPC.Seguridad.DL.DALC.pdb
-D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.DL.DALC.dll.config
-D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.DL.DALC.dll
-D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.DL.DALC.pdb
-D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.BL.BE.dll
-D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.BL.BE.pdb
-D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.DL.DALC\obj\Release\ResolveAssemblyReference.cache
-D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.DL.DALC\obj\Release\UPC.Seguridad.DL.DALC.dll
-D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.DL.DALC\obj\Release\UPC.Seguridad.DL.DALC.pdb
