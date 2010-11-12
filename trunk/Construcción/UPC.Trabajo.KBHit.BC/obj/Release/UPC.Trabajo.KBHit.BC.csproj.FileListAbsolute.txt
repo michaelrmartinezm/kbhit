@@ -22,3 +22,15 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\ResolveAssemblyReference.cache
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\UPC.Trabajo.KBHit.BC.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\obj\Release\UPC.Trabajo.KBHit.BC.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.dll.config
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BC.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BE.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.DALC.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.External.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.BE.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.DALC.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\bin\Release\UPC.Trabajo.KBHit.External.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\obj\Release\ResolveAssemblyReference.cache
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\obj\Release\UPC.Trabajo.KBHit.BC.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Trabajo.KBHit.BC\obj\Release\UPC.Trabajo.KBHit.BC.pdb

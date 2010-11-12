@@ -8,3 +8,8 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BE\obj\Release\ResolveAssemblyReference.cache
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BE\obj\Release\UPC.Seguridad.BL.BE.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BE\obj\Release\UPC.Seguridad.BL.BE.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.BL.BE\bin\Release\UPC.Seguridad.BL.BE.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.BL.BE\bin\Release\UPC.Seguridad.BL.BE.pdb
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.BL.BE\obj\Release\ResolveAssemblyReference.cache
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.BL.BE\obj\Release\UPC.Seguridad.BL.BE.dll
+D:\gEnArO_20102\Documents\kbhit\trunk\Construcción\UPC.Seguridad.BL.BE\obj\Release\UPC.Seguridad.BL.BE.pdb
