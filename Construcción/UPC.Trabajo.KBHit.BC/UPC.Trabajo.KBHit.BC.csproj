@@ -71,6 +71,7 @@
     <Compile Include="AvionBC.cs" />
     <Compile Include="DestinoBC.cs" />
     <Compile Include="ExcepcionBC.cs" />
+    <Compile Include="FacturaBC.cs" />
     <Compile Include="InformacionVueloBC.cs" />
     <Compile Include="LogBC.cs" />
     <Compile Include="MovimientoBC.cs" />

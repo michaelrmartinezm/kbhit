@@ -128,8 +128,9 @@
             this.tsbGuardar.Name = "tsbGuardar";
             this.tsbGuardar.Size = new System.Drawing.Size(147, 32);
             this.tsbGuardar.TabIndex = 8;
-            this.tsbGuardar.Text = "Generar Reporte";
+            this.tsbGuardar.Text = "Guardar Factura";
             this.tsbGuardar.ThemeName = "Aqua";
+            this.tsbGuardar.Click += new System.EventHandler(this.In_GuardarFactura);
             // 
             // tsbVerInfo
             // 
@@ -145,6 +146,7 @@
             // 
             this.cbAerolinea.Location = new System.Drawing.Point(120, 66);
             this.cbAerolinea.Name = "cbAerolinea";
+            this.cbAerolinea.NullText = "Elija una Aerolinea";
             // 
             // 
             // 

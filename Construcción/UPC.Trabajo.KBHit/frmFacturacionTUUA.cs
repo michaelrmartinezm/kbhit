@@ -34,6 +34,8 @@ namespace UPC.Trabajo.KBHit
             {
                 if (cbAerolinea.SelectedIndex != -1)
                 {
+                    dgvTUUA.DataSource = null;
+
                     TUUABC objTUUABC = new TUUABC();
                     TUUABE objTUUABE = new TUUABE();
                     objTUUABE.ObjAerolineaBE = new AerolineaBE();
@@ -130,6 +132,44 @@ namespace UPC.Trabajo.KBHit
         private void LimpiarCombo()
         {
             cbAerolinea.Items.Clear();
+        }
+
+        private void In_GuardarFactura(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cbAerolinea.SelectedIndex != -1)
+                {
+                    if (dgvTUUA.DataSource != null)
+                    {
+                        List<TUUABE> lstTUUA = new List<TUUABE>();
+                        FacturaBC objFacturaBC = new FacturaBC();
+                        FacturaBE objFacturaBE = new FacturaBE();
+                        objFacturaBE.ObjAerolinea = new AerolineaBE();
+
+                        objFacturaBE.Descripcion = "Por concepto de tarifa única por uso del aeropuerto ( TUUA ).";
+                        objFacturaBE.ObjAerolinea.Nombre = cbAerolinea.Items[cbAerolinea.SelectedIndex].Text;
+                        objFacturaBE.Fecha = cbFecha.Value;
+
+                        lstTUUA = (List<TUUABE>)dgvTUUA.DataSource;
+                        float monto = 0;
+                        foreach (TUUABE cDto in lstTUUA)
+                        {
+                            monto += cDto.Impuesto;
+                        }
+
+                        objFacturaBE.Monto = monto;
+
+                        int iCod = objFacturaBC.RegistrarFactura(objFacturaBE);
+                    }
+                }
+                
+
+            }
+            catch (Exception ex)
+            {
+                Funciones.RegistrarExcepcion(ex);
+            }
         }
     }
 }

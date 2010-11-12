@@ -5,48 +5,34 @@ using UPC.Trabajo.KBHit.DALC;
 
 namespace UPC.Trabajo.KBHit.BC
 {
-    public class TUUABC
+    public class FacturaBC
     {
-        public int RegistrarTUUA(TUUABE objTUUABE)
+        public int RegistrarFactura(FacturaBE objFacturaBE)
         {
             int result = 0;
             try
             {
                 DALCFactory FabricaDALC = DALCFactory.getFabrica(DALCFactory.SQL);
-                TUUADALC objTUUADALC = FabricaDALC.getTUUA();
-                TipoVueloDALC objTipoVueloDALC = FabricaDALC.getTipoVuelo();
+                FacturaDALC objFacturaDALC = FabricaDALC.getFacturaDALC();
                 AerolineaDALC objAerolineaDALC = FabricaDALC.getAerolineaDALC();
 
-                Boolean _state = false;
-                Boolean state_ = false;
+                Boolean state = false;
 
-                List<AerolineaBE> lstAerolinea = objAerolineaDALC.ListarAerolineaBE();                
+                List<AerolineaBE> lstAerolinea = objAerolineaDALC.ListarAerolineaBE();
                 foreach (AerolineaBE cDto in lstAerolinea)
                 {
-                    if (cDto.Nombre == objTUUABE.ObjAerolineaBE.Nombre)
+                    if (cDto.Nombre == objFacturaBE.ObjAerolinea.Nombre)
                     {
-                        objTUUABE.ObjAerolineaBE.CodAerolinea = cDto.CodAerolinea;
-                        _state = true;
+                        objFacturaBE.ObjAerolinea.CodAerolinea = cDto.CodAerolinea;
+                        state = true;
                         break;
                     }
                 }
 
-                List<TipoVueloBE> lstTipoVuelo = objTipoVueloDALC.ListarTipoVueloBE();
-                state_ = false;
-                foreach (TipoVueloBE cDto in lstTipoVuelo)
+                if (state == true)
                 {
-                    if (cDto.CodTipoVuelo == objTUUABE.ObjTipoVueloBE.CodTipoVuelo)
-                    {
-                        objTUUABE.Impuesto = cDto.Impuesto;
-                        state_ = true;
-                        break;
-                    }
-                }
+                    result = objFacturaDALC.InsertarFactura(objFacturaBE);
 
-                if (_state == true && state_ == true)
-                {
-                    result = objTUUADALC.InsertarTUUABE(objTUUABE);
-                    
                     if (result != 0)
                     {
                         //Guardar el registro;
@@ -56,7 +42,7 @@ namespace UPC.Trabajo.KBHit.BC
                         objLogBE.Fecha = DateTime.Now;
                         objLogBE.IP = UPC.Trabajo.KBHit.BC.Properties.Settings.Default.IP;
                         objLogBE.Razon = "Inserción de un nuevo registro en el sistema";
-                        objLogBE.Tabla = "TUUA";
+                        objLogBE.Tabla = "Factura";
                         objLogBE.Usuario = "UsuarioX"; //Debo obtener el usuario
                         int r = (objLogBC.RegistrarLog(objLogBE));
                     }
@@ -69,14 +55,14 @@ namespace UPC.Trabajo.KBHit.BC
             return result;
         }
 
-        public TUUABE ObtenerTUUA(int codigo)
+        public FacturaBE ObtenerFactura(int codigo)
         {
-            TUUABE obj = null;
+            FacturaBE obj = null;
             try
             {
                 DALCFactory FabricaDALC = DALCFactory.getFabrica(DALCFactory.SQL);
-                TUUADALC objTUUADALC = FabricaDALC.getTUUA();
-                obj = objTUUADALC.ObtenerTUUABE(codigo);
+                FacturaDALC objFacturaDALC = FabricaDALC.getFacturaDALC();
+                obj = objFacturaDALC.ObtenerFactura(codigo);
 
                 if (obj != null)
                 {
@@ -87,33 +73,16 @@ namespace UPC.Trabajo.KBHit.BC
                     objLogBE.Fecha = DateTime.Now;
                     objLogBE.IP = UPC.Trabajo.KBHit.BC.Properties.Settings.Default.IP;
                     objLogBE.Razon = "Se obtuvo un nuevo registro del sistema";
-                    objLogBE.Tabla = "TUUA";
+                    objLogBE.Tabla = "Factura";
                     objLogBE.Usuario = "UsuarioX"; //Debo obtener el usuario
                     int r = (objLogBC.RegistrarLog(objLogBE));
                 }
-
-                return obj;
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }            
-        }
-
-        public List<TUUABE> ListarTUUAs()
-        {
-            List<TUUABE> lsTUUAs = null;
-            try
-            {
-                DALCFactory FabricaDALC = DALCFactory.getFabrica(DALCFactory.SQL);
-                TUUADALC objTUUADALC = FabricaDALC.getTUUA();
-                lsTUUAs = objTUUADALC.ListarTUUABE();
             }
             catch (Exception ex)
             {
                 throw ex;
             }
-            return lsTUUAs;
+            return obj;
         }
     }
 }

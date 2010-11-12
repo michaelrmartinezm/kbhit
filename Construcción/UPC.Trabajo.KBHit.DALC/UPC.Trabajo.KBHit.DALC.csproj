@@ -71,6 +71,7 @@
     <Compile Include="AvionDALC..cs" />
     <Compile Include="DestinoDALC.cs" />
     <Compile Include="ExcepcionDALC.cs" />
+    <Compile Include="FacturaDALC.cs" />
     <Compile Include="InformacionVueloDALC.cs" />
     <Compile Include="IPAeropuertoDALC.cs" />
     <Compile Include="LogDALC.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="SqlDALCFactory.cs" />
     <Compile Include="SqlDestinoDALC.cs" />
     <Compile Include="SqlExcepcionDALC.cs" />
+    <Compile Include="SqlFacturaDALC.cs" />
     <Compile Include="SqlInformacionVueloDALC.cs" />
     <Compile Include="SqlIPAeropuertoDALC.cs" />
     <Compile Include="SqlLogDALC.cs" />

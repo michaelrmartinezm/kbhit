@@ -97,5 +97,10 @@ namespace UPC.Trabajo.KBHit.DALC
         {
             return new SqlTUUADALC();
         }
+
+        public override FacturaDALC getFacturaDALC()
+        {
+            return new SqlFacturaDALC();
+        }
     }
 }
