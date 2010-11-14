@@ -71,6 +71,7 @@
     <Compile Include="AeropuertoBCTest.cs" />
     <Compile Include="PlataformaBCTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TUUABCTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AuthoringTests.txt" />
