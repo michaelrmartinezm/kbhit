@@ -73,12 +73,18 @@ namespace Test
 public void RegistrarTUUATest()
 {
     TUUABC target = new TUUABC(); // TODO: Initialize to an appropriate value
-    TUUABE objTUUABE = null; // TODO: Initialize to an appropriate value
-    int expected = 1; // TODO: Initialize to an appropriate value
-    int actual;
-    actual = target.RegistrarTUUA(objTUUABE);
-    Assert.AreEqual(expected, actual);
-    Assert.Inconclusive("Verify the correctness of this test method.");
+    TUUABE actual = new TUUABE(); // TODO: Initialize to an appropriate value
+    actual.CodBoleto = 100;
+    actual.CodVuelo = 200;
+    actual.Impuesto = 6;
+    actual.ObjAerolineaBE.CodAerolinea = 5;
+    actual.ObjTipoVueloBE.CodTipoVuelo = 1;
+    TUUABE expected = new TUUABE(); // TODO: Initialize to an appropriate value
+    expected.CodTUUA = 4;
+    int vActual;
+    vActual = target.RegistrarTUUA(actual);
+    Assert.AreEqual(expected.CodTUUA, vActual);
+    //Assert.Inconclusive("Verify the correctness of this test method.");
 }
 
 /// <summary>
@@ -106,7 +112,7 @@ public void ObtenerTUUATest()
     TUUABE actual = new TUUABE();
     actual = target.ObtenerTUUA(codigo);
     Assert.AreEqual(expected, actual);
-    Assert.Inconclusive("Verify the correctness of this test method.");
+    //Assert.Inconclusive("Verify the correctness of this test method.");
 }
 
 /// <summary>
@@ -117,6 +123,50 @@ public void ListarTUUAsTest()
 {
 TUUABC target = new TUUABC(); // TODO: Initialize to an appropriate value
 List<TUUABE> expected = null; // TODO: Initialize to an appropriate value
+    List<TUUABE> actual;
+    actual = target.ListarTUUAs();
+    Assert.AreEqual(expected, actual);
+    //Assert.Inconclusive("Verify the correctness of this test method.");
+}
+
+/// <summary>
+///A test for RegistrarTUUA
+///</summary>
+[TestMethod()]
+public void RegistrarTUUATest1()
+{
+    TUUABC target = new TUUABC(); // TODO: Initialize to an appropriate value
+    TUUABE objTUUABE = null; // TODO: Initialize to an appropriate value
+    int expected = 0; // TODO: Initialize to an appropriate value
+    int actual;
+    actual = target.RegistrarTUUA(objTUUABE);
+    Assert.AreEqual(expected, actual);
+    Assert.Inconclusive("Verify the correctness of this test method.");
+}
+
+/// <summary>
+///A test for ObtenerTUUA
+///</summary>
+[TestMethod()]
+public void ObtenerTUUATest1()
+{
+    TUUABC target = new TUUABC(); // TODO: Initialize to an appropriate value
+    int codigo = 0; // TODO: Initialize to an appropriate value
+    TUUABE expected = null; // TODO: Initialize to an appropriate value
+    TUUABE actual;
+    actual = target.ObtenerTUUA(codigo);
+    Assert.AreEqual(expected, actual);
+    Assert.Inconclusive("Verify the correctness of this test method.");
+}
+
+/// <summary>
+///A test for ListarTUUAs
+///</summary>
+[TestMethod()]
+public void ListarTUUAsTest1()
+{
+    TUUABC target = new TUUABC(); // TODO: Initialize to an appropriate value
+    List<TUUABE> expected = null; // TODO: Initialize to an appropriate value
     List<TUUABE> actual;
     actual = target.ListarTUUAs();
     Assert.AreEqual(expected, actual);
