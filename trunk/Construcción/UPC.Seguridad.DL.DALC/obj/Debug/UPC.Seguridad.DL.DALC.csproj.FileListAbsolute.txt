@@ -29,3 +29,9 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\obj\Debug\UPC.Seguridad.DL.DALC.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\obj\Debug\UPC.Seguridad.DL.DALC.pdb
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Debug\System.configuration.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Debug\System.Data.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Debug\System.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Debug\System.Xml.dll
+C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Debug\System.Xml.Linq.dll
