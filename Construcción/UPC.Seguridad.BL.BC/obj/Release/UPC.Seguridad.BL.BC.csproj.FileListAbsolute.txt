@@ -18,13 +18,3 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BC\obj\Release\ResolveAssemblyReference.cache
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BC\obj\Release\UPC.Seguridad.BL.BC.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BC\obj\Release\UPC.Seguridad.BL.BC.pdb
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BC.dll.config
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BC.dll
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BC.pdb
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BE.dll
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.DL.DALC.dll
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BE.pdb
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.DL.DALC.pdb
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\obj\Release\ResolveAssemblyReference.cache
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\obj\Release\UPC.Seguridad.BL.BC.dll
-C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Seguridad.BL.BC\obj\Release\UPC.Seguridad.BL.BC.pdb
