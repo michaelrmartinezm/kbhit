@@ -5439,8 +5439,8 @@
 <XPD:OBJ name="OwnedViews[53]" type="UMLClassView" guid="TLBiSCE0jkCZAn6AMzz/JwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">580</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">780</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">576</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">776</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">191</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">108</XPD:ATTR>
 <XPD:REF name="Model">sCsuYbhZP0awor7BYzc74wAA</XPD:REF>
@@ -5470,7 +5470,7 @@
 <XPD:OBJ name="OwnedViews[54]" type="UMLGeneralizationView" guid="ipFY33RSp0yHcIqRHE9+OgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">672,715;674,780</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">671,715;671,776</XPD:ATTR>
 <XPD:REF name="Model">9/AZeHfcRUycLdJSAvD0vwAA</XPD:REF>
 <XPD:REF name="Head">TLBiSCE0jkCZAn6AMzz/JwAA</XPD:REF>
 <XPD:REF name="Tail">Ldeid0DF9k6ZhKY7mheMrQAA</XPD:REF>
@@ -5553,7 +5553,7 @@
 <XPD:OBJ name="OwnedViews[57]" type="UMLClassView" guid="kDIRLlRgpUWp+GKD1tMcHwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">796</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">792</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">788</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">229</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">108</XPD:ATTR>
@@ -5610,7 +5610,7 @@
 <XPD:OBJ name="OwnedViews[59]" type="UMLGeneralizationView" guid="uwScbVpqhk6sVDHaCE2HegAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">907,732;909,788</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">906,732;906,788</XPD:ATTR>
 <XPD:REF name="Model">1yzxOFp17EGS5q0SQbdwwgAA</XPD:REF>
 <XPD:REF name="Head">kDIRLlRgpUWp+GKD1tMcHwAA</XPD:REF>
 <XPD:REF name="Tail">7dOmm306+Eewg5oac9DleQAA</XPD:REF>
@@ -8015,6 +8015,7 @@
 <XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="wOKHmpVQ3k+2FFJ20IP4rAAA">
 <XPD:ATTR name="Name" type="string">ActualizarTUUABE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">sCsuYbhZP0awor7BYzc74wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="p1L3hlj9+kePFsLWZMJg0gAA">
@@ -8025,6 +8026,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="MFTnbbvOiE+jYnU2DtnzgQAA">
 <XPD:ATTR name="Name" type="string">EliminarTUUABE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">sCsuYbhZP0awor7BYzc74wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="0UDcIgzbfUibZg3sTAokdwAA">
@@ -8035,6 +8037,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="uFNe49NY2E+4jWyeAPBOSwAA">
 <XPD:ATTR name="Name" type="string">ListarTUUABE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">sCsuYbhZP0awor7BYzc74wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="OuN6VfmFY0yGSbJm2lWxqgAA">
@@ -8045,6 +8048,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="9bdAV7I7Dky1T4qept/A7QAA">
 <XPD:ATTR name="Name" type="string">InsertarTUUABE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">sCsuYbhZP0awor7BYzc74wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Yn2asfB3N0S5nohRIQ7jWAAA">
@@ -8060,6 +8064,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[4]" type="UMLOperation" guid="VUwHrikoI06qEniaCMMd3wAA">
 <XPD:ATTR name="Name" type="string">ObtenerTUUABE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">sCsuYbhZP0awor7BYzc74wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Yx2L8ee/2kuGLHmAn/W7DQAA">
@@ -8182,6 +8187,7 @@
 <XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="c+HKOXrhG02dBaBdy0811gAA">
 <XPD:ATTR name="Name" type="string">ActualizarTipoVueloBE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">DFUu7BjDC0qCxMVpsyhQ1AAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Yr1vrtksqEKDOeFIkXjDtAAA">
@@ -8192,6 +8198,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="TwPGxrmQ9keVacgdZkp51AAA">
 <XPD:ATTR name="Name" type="string">EliminarTipoVueloBE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">DFUu7BjDC0qCxMVpsyhQ1AAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="byXLAHw0cEyZBOSlkM7i8QAA">
@@ -8202,6 +8209,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="9MODnjwWtkOQHyL7VvMA5AAA">
 <XPD:ATTR name="Name" type="string">ListarTipoVueloBE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">DFUu7BjDC0qCxMVpsyhQ1AAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="J0MAmf3yO0qQ5eBfVHS8+AAA">
@@ -8212,6 +8220,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="z1Rzjc8uEUGhWa6qOMKGOQAA">
 <XPD:ATTR name="Name" type="string">InsertarTipoVueloBE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">DFUu7BjDC0qCxMVpsyhQ1AAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="JfeaZnNkfE+VuKGI7T/ZBgAA">
@@ -8227,6 +8236,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[4]" type="UMLOperation" guid="UZeP8OWSvUORxKelg6BlOQAA">
 <XPD:ATTR name="Name" type="string">ObtenerTipoVueloBE</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">DFUu7BjDC0qCxMVpsyhQ1AAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="mHlZfU1c4kCYNas1ymys+QAA">
