@@ -131,7 +131,7 @@ namespace UPC.Trabajo.KBHit.DALC
                     obj.CodTUUA = dr.GetInt32(dr.GetOrdinal("CodTUUA"));
                     obj.CodBoleto = dr.GetInt32(dr.GetOrdinal("CodBoleto"));
                     obj.CodVuelo = dr.GetInt32(dr.GetOrdinal("CodVuelo"));
-                    obj.Impuesto = dr.GetFloat(dr.GetOrdinal("Impuesto"));
+                    obj.Impuesto = (float)dr.GetDouble(dr.GetOrdinal("Impuesto"));
                     obj.Fecha = dr.GetDateTime(dr.GetOrdinal("Fecha"));
                     DALCFactory FabricaDALC = DALCFactory.getFabrica(DALCFactory.SQL);
                     TipoVueloDALC objTipoVueloDALC = FabricaDALC.getTipoVuelo();

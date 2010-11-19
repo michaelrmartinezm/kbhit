@@ -61,12 +61,13 @@ namespace UPC.Trabajo.KBHit.BC
                         int r = (objLogBC.RegistrarLog(objLogBE));
                     }
                 }
+
+                return result;
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
-            return result;
+            }            
         }
 
         public TUUABE ObtenerTUUA(int codigo)
@@ -108,12 +109,13 @@ namespace UPC.Trabajo.KBHit.BC
                 DALCFactory FabricaDALC = DALCFactory.getFabrica(DALCFactory.SQL);
                 TUUADALC objTUUADALC = FabricaDALC.getTUUA();
                 lsTUUAs = objTUUADALC.ListarTUUABE();
+
+                return lsTUUAs;
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
-            return lsTUUAs;
+            }            
         }
     }
 }
