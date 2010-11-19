@@ -62,12 +62,13 @@ namespace UPC.Trabajo.KBHit.BC
                     objLogBE.Usuario = "UsuarioX"; //Debo obtener el usuario
                     int r = (objLogBC.RegistrarLog(objLogBE));
                 }
+
+                return obj;
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
-            return obj;
+            }            
         }
 
         public void ActualizarPlataforma(PlataformaBE objPlataformaBE)

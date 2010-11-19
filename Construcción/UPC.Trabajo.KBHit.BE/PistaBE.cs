@@ -8,8 +8,7 @@ namespace UPC.Trabajo.KBHit.BE
     public class PistaBE
     {
         private int codPista;
-        private int codAeropuerto;
-        private int largo;
+        private int codAeropuerto;        
         private int ancho;
         private int tora;
         private int toda;
@@ -20,7 +19,8 @@ namespace UPC.Trabajo.KBHit.BE
         private String pcn;
         private String franja;
         private String rodaje;
-        private String estado;            
+        private int largo;
+        private String estado; //-- estado es la disponibilidad actual de la pista        
 
         public String Estado
         {

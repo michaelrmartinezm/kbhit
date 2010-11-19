@@ -9,11 +9,13 @@ namespace UPC.Trabajo.KBHit.DALC
     {
         public abstract int InsertarPistaBE(PistaBE obj);
         public abstract PistaBE ObtenerPistaBE(int iCod);
+        //-- La función eliminar es por demás, pero forma parte del código de implementación hecha mucho antes.
         public abstract void EliminarPistaBE(int iCod);
         public abstract List<PistaBE> ListarPistaBE();
         public abstract void ActualizarPistaBE(PistaBE obj);
         private List<UsuarioBE> lstUsuario = new List<UsuarioBE>();
 
+        //-- A continuación se muestra el código que forma parte de la implementación del patrón observador
         public List<UsuarioBE> LstUsuario
         {
             get { return lstUsuario; }

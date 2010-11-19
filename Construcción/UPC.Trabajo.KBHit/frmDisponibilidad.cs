@@ -37,24 +37,13 @@ namespace UPC.Trabajo.KBHit
 
                 dgvDisponibilidad.AllowDrop = false;
 
-                // Opcion a seleccionar varios registros
-                dgvDisponibilidad.MultiSelect = false;
+                dgvDisponibilidad.MultiSelect = false; //-- Se protege la grilla para evitar seleccionar varios registros
 
-                // Para evitar poder modificar los datos de la grilla
-                dgvDisponibilidad.ReadOnly = true;
+                dgvDisponibilidad.ReadOnly = true; //-- Se protege la grilla para evitar poder modificar los datos de la grilla
 
-                // Para poder hacer clic en cualquier parte de la fila y que toda la fila aparezca selecionada
+                // Lo siguiente es para elegir toda la fila selecionada
                 dgvDisponibilidad.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
-                // Customizar las columnas de la grilla
-                /*dgvDisponibilidad.Columns[0].HeaderText = "Código";
-                dgvDisponibilidad.Columns[0].DataPropertyName = "CodPista";
-                dgvDisponibilidad.Columns[0].Width = 80;
-
-                dgvDisponibilidad.Columns[1].HeaderText = "Estado";
-                dgvDisponibilidad.Columns[1].DataPropertyName = "Estado";
-                dgvDisponibilidad.Columns[1].Width = 120;
-                */
                 dgvDisponibilidad.Columns[2].Visible = false;
                 dgvDisponibilidad.Columns[3].Visible = false;
                 dgvDisponibilidad.Columns[4].Visible = false;
@@ -71,20 +60,20 @@ namespace UPC.Trabajo.KBHit
                 DataGridViewCellStyle csFilaPar = new DataGridViewCellStyle();
                 DataGridViewCellStyle csFilaImpar = new DataGridViewCellStyle();
 
-                csFilaPar.BackColor = Color.Silver;
-                csFilaImpar.BackColor = Color.White;
+                csFilaPar.BackColor = Color.Azure;
+                csFilaImpar.BackColor = Color.Peru;
 
-                int i;
+                int elemento;
 
-                for (i = 0; i < dgvDisponibilidad.Rows.Count; i++)
+                for (elemento = 0; elemento < dgvDisponibilidad.Rows.Count; elemento++)
                 {
-                    if (i % 2 == 0)
+                    if (elemento % 2 == 0)
                     {
-                        dgvDisponibilidad.Rows[i].DefaultCellStyle = csFilaPar;
+                        dgvDisponibilidad.Rows[elemento].DefaultCellStyle = csFilaPar;
                     }
                     else
                     {
-                        dgvDisponibilidad.Rows[i].DefaultCellStyle = csFilaImpar;
+                        dgvDisponibilidad.Rows[elemento].DefaultCellStyle = csFilaImpar;
                     }
                 }
             }
@@ -126,6 +115,7 @@ namespace UPC.Trabajo.KBHit
 
         private void InSeleccionPista(object sender, EventArgs e)
         {
+            //-- Estas lineas de código no se usan (aún no detecto porqué) pero no traen problemas
             try
             {
                 int codigoPista = (int)dgvDisponibilidad.SelectedRows[0].Cells[0].Value;
@@ -149,10 +139,12 @@ namespace UPC.Trabajo.KBHit
                 int codigoPista = (int)dgvDisponibilidad.SelectedRows[0].Cells[1].Value;
                 PistaBC objPistaBC = new PistaBC();
                 PistaBE objPistaBE = objPistaBC.ObtenerPista(codigoPista);
-                String n_estado = cbEstado.SelectedText;
+                //En la versión VS2008 no tenia ningún problema usar cbEstado.SelectText
+                //En la versión VS2010, aparentemente trae problemas, pero lo he resuelto usando el SelectItem
+                String n_estado = cbEstado.SelectedItem.ToString();
                 if (n_estado != objPistaBE.Estado)
                 {
-                    objPistaBE.Estado = cbEstado.SelectedText;
+                    objPistaBE.Estado = cbEstado.SelectedItem.ToString();
                     int result = objPistaBC.ActualizarPista(objPistaBE);
                     if (result != 0)
                     {

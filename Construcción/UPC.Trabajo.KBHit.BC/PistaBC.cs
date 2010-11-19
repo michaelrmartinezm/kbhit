@@ -33,12 +33,13 @@ namespace UPC.Trabajo.KBHit.BC
                     objLogBE.Usuario = "UsuarioX"; //Debo obtener el usuario
                     int r = (objLogBC.RegistrarLog(objLogBE));
                 }
+
+                return result;
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
-            return result;
+            }            
         }
 
         public PistaBE ObtenerPista(int codigo)
@@ -63,12 +64,13 @@ namespace UPC.Trabajo.KBHit.BC
                     objLogBE.Usuario = "UsuarioX"; //Debo obtener el usuario
                     int r = (objLogBC.RegistrarLog(objLogBE));
                 }
+
+                return obj;
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
-            return obj;
+            }            
         }
 
         public int ActualizarPista(PistaBE objPistaBE)
@@ -92,12 +94,13 @@ namespace UPC.Trabajo.KBHit.BC
                 objLogBE.Tabla = "Pista";
                 objLogBE.Usuario = "UsuarioX"; //Debo obtener el usuario
                 int r = (objLogBC.RegistrarLog(objLogBE));
+
+                return result;
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
-            return result;
+            }            
         }
 
         public List<PistaBE> ListarPistas()
@@ -109,7 +112,7 @@ namespace UPC.Trabajo.KBHit.BC
                 PistaDALC objPistaDALC = FabricaDALC.getPistaDALC();
                 lsPistas = objPistaDALC.ListarPistaBE();
 
-                //EL SIGUIENTE CÓDIGO ES PARA CUANDO SE DETERMINE UN AEROPUERTO ESPECIFICO PARA UNA 'IP'
+                #region - PARA CUANDO SE DETERMINE UN AEROPUERTO ESPECIFICO PARA UNA 'IP' -
                 //List<PistaBE> lstPista = null;
                 //CodigoDefault = UnoEspecifico;
                 //
@@ -124,13 +127,14 @@ namespace UPC.Trabajo.KBHit.BC
                 //        }
                 //    }
                 //}
+                #endregion
+
+                return lsPistas;
             }
             catch (Exception ex)
             {
                 throw ex;
             }
-            return lsPistas;
-            //return lstPista
         }
 
         public void Notify(PistaBE objPistaBE)
@@ -166,12 +170,8 @@ namespace UPC.Trabajo.KBHit.BC
             }
 
             PistaDALC ovj = fabrica.getPistaDALC();
-
-
-            /*foreach (PistaBE _cDto in myLst)
-            {*/
-                ovj.AgregarObservador(objUsuarioBE);
-            /*}*/
+            
+            ovj.AgregarObservador(objUsuarioBE);
         }
     }
 }
