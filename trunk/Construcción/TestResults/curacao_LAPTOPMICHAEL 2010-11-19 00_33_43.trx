@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0a0946da-8f6a-4440-83c0-5e71aa485510" name="curacao@LAPTOPMICHAEL 2010-11-19 00:33:43" runUser="LAPTOPMICHAEL\curacao" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="c4f4f54d-cb71-44da-a4a9-eda63816ca12">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="curacao_LAPTOPMICHAEL 2010-11-19 00_33_43">
+      <DeploymentItem filename="C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BC\bin\Debug\UPC.Trabajo.KBHit.BC.dll" />
+      <DeploymentItem filename="C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.DALC\bin\Debug\UPC.Trabajo.KBHit.DALC.dll" />
+      <DeploymentItem filename="C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\bin\Debug\UPC.Trabajo.KBHit.External.dll" />
+      <DeploymentItem filename="C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" />
+      <DeploymentItem filename="C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" />
+      <DeploymentItem filename="C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll" />
+      <DeploymentItem filename="C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" />
+      <DeploymentItem filename="C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BE\bin\Debug\UPC.Trabajo.KBHit.BE.dll" />
+      <DeploymentItem filename="C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll" />
+      <DeploymentItem filename="C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-19T00:33:43.7026000-05:00" queuing="2010-11-19T00:33:44.6816000-05:00" start="2010-11-19T00:33:44.7876000-05:00" finish="2010-11-19T00:33:47.3976000-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ObtenerAeropuertoTest" storage="c:\users\curacao\documents\michael - notebook\upc\año 2010\evolucion de software\producto software\proyecto 1\v0.0\upc.trabajo.kbhit\test\bin\debug\test.dll" id="a4d79ee8-f273-837c-5f4e-75385de97e22">
+      <Execution id="84e3b6c2-4859-4c1c-94a6-4a3289b9a2f2" />
+      <TestMethod codeBase="C:/Users/curacao/Documents/Michael - NoteBook/UPC/Año 2010/Evolucion de Software/Producto Software/Proyecto 1/v0.0/UPC.Trabajo.KBHit/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.AeropuertoBCTest, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObtenerAeropuertoTest" />
+    </UnitTest>
+    <UnitTest name="ObtenerTUUATest" storage="c:\users\curacao\documents\michael - notebook\upc\año 2010\evolucion de software\producto software\proyecto 1\v0.0\upc.trabajo.kbhit\test\bin\debug\test.dll" id="c1587f24-b29d-9a48-efd9-29814b85cc66">
+      <Execution id="3e2e64b2-4061-4730-a62e-f179a23dc6ba" />
+      <TestMethod codeBase="C:/Users/curacao/Documents/Michael - NoteBook/UPC/Año 2010/Evolucion de Software/Producto Software/Proyecto 1/v0.0/UPC.Trabajo.KBHit/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.TUUABCTest, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObtenerTUUATest" />
+    </UnitTest>
+    <UnitTest name="ObtenerPlataformaTest" storage="c:\users\curacao\documents\michael - notebook\upc\año 2010\evolucion de software\producto software\proyecto 1\v0.0\upc.trabajo.kbhit\test\bin\debug\test.dll" id="c3c8361a-ae47-13ac-7812-feb4815963af">
+      <Execution id="ae420b80-b253-4f07-8a20-e73157db8aa7" />
+      <TestMethod codeBase="C:/Users/curacao/Documents/Michael - NoteBook/UPC/Año 2010/Evolucion de Software/Producto Software/Proyecto 1/v0.0/UPC.Trabajo.KBHit/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.PlataformaBCTest, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ObtenerPlataformaTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a4d79ee8-f273-837c-5f4e-75385de97e22" executionId="84e3b6c2-4859-4c1c-94a6-4a3289b9a2f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1587f24-b29d-9a48-efd9-29814b85cc66" executionId="3e2e64b2-4061-4730-a62e-f179a23dc6ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3c8361a-ae47-13ac-7812-feb4815963af" executionId="ae420b80-b253-4f07-8a20-e73157db8aa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="84e3b6c2-4859-4c1c-94a6-4a3289b9a2f2" testId="a4d79ee8-f273-837c-5f4e-75385de97e22" testName="ObtenerAeropuertoTest" computerName="LAPTOPMICHAEL" duration="00:00:00.3524827" startTime="2010-11-19T00:33:44.8286000-05:00" endTime="2010-11-19T00:33:45.7696000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84e3b6c2-4859-4c1c-94a6-4a3289b9a2f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="3e2e64b2-4061-4730-a62e-f179a23dc6ba" testId="c1587f24-b29d-9a48-efd9-29814b85cc66" testName="ObtenerTUUATest" computerName="LAPTOPMICHAEL" duration="00:00:00.0237238" startTime="2010-11-19T00:33:45.7836000-05:00" endTime="2010-11-19T00:33:45.8186000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e2e64b2-4061-4730-a62e-f179a23dc6ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="ae420b80-b253-4f07-8a20-e73157db8aa7" testId="c3c8361a-ae47-13ac-7812-feb4815963af" testName="ObtenerPlataformaTest" computerName="LAPTOPMICHAEL" duration="00:00:00.0058604" startTime="2010-11-19T00:33:45.8236000-05:00" endTime="2010-11-19T00:33:45.8356000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae420b80-b253-4f07-8a20-e73157db8aa7">
+    </UnitTestResult>
+  </Results>
+</TestRun>
