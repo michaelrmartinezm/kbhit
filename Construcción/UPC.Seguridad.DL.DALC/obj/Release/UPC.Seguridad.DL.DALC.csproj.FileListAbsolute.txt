@@ -20,3 +20,17 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Release\System.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Release\System.Xml.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.DL.DALC\bin\Release\System.Xml.Linq.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.DL.DALC.dll.config
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.DL.DALC.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.DL.DALC.pdb
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\System.configuration.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\System.Data.DataSetExtensions.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\System.Data.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\System.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\System.Xml.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\System.Xml.Linq.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.BL.BE.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\bin\Release\UPC.Seguridad.BL.BE.pdb
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\obj\Release\ResolveAssemblyReference.cache
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\obj\Release\UPC.Seguridad.DL.DALC.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.DL.DALC\obj\Release\UPC.Seguridad.DL.DALC.pdb
