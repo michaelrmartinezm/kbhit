@@ -22,3 +22,15 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BE\bin\Release\System.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BE\bin\Release\System.Xml.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.BE\bin\Release\System.Xml.Linq.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\UPC.Trabajo.KBHit.BE.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\UPC.Trabajo.KBHit.BE.pdb
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\System.Data.DataSetExtensions.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\System.Data.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\System.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\System.Xml.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\System.Xml.Linq.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\UPC.Trabajo.KBHit.External.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\bin\Release\UPC.Trabajo.KBHit.External.pdb
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\obj\Release\ResolveAssemblyReference.cache
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\obj\Release\UPC.Trabajo.KBHit.BE.dll
+D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Trabajo.KBHit.BE\obj\Release\UPC.Trabajo.KBHit.BE.pdb

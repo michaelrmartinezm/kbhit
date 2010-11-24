@@ -78,6 +78,7 @@
     <Compile Include="AerolineaBE.cs" />
     <Compile Include="AeropuertoBE.cs" />
     <Compile Include="AvionBE.cs" />
+    <Compile Include="CobroEstacionamientoBE.cs" />
     <Compile Include="DestinoBE.cs" />
     <Compile Include="ExcepcionBE.cs" />
     <Compile Include="FacturaBE.cs" />
