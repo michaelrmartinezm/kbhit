@@ -102,5 +102,10 @@ namespace UPC.Trabajo.KBHit.DALC
         {
             return new SqlFacturaDALC();
         }
+
+        public override CobroEstacionamientoDALC getCobroEstacionamientoDALC()
+        {
+            return new SqlCobroEstacionamientoDALC();
+        }
     }
 }

@@ -26,6 +26,7 @@ namespace UPC.Trabajo.KBHit.DALC
         public abstract TipoVueloDALC getTipoVuelo();
         public abstract TUUADALC getTUUA();
         public abstract FacturaDALC getFacturaDALC();
+        public abstract CobroEstacionamientoDALC getCobroEstacionamientoDALC();
 
         public static DALCFactory getFabrica(int iTipoFabrica)
         {

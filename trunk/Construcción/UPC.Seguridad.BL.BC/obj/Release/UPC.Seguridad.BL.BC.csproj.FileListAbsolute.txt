@@ -18,13 +18,3 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BC\obj\Release\ResolveAssemblyReference.cache
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BC\obj\Release\UPC.Seguridad.BL.BC.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Seguridad.BL.BC\obj\Release\UPC.Seguridad.BL.BC.pdb
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BC.dll.config
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BC.dll
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BC.pdb
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BE.dll
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.DL.DALC.dll
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.BL.BE.pdb
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\bin\Release\UPC.Seguridad.DL.DALC.pdb
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\obj\Release\ResolveAssemblyReference.cache
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\obj\Release\UPC.Seguridad.BL.BC.dll
-D:\Carito\Mis Archivos\Universidad\Carrera\Evolución de Software\SVN\kbhit\Construcción\UPC.Seguridad.BL.BC\obj\Release\UPC.Seguridad.BL.BC.pdb
