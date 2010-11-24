@@ -78,6 +78,7 @@
     <Compile Include="AerolineaDALC.cs" />
     <Compile Include="AeropuertoDALC.cs" />
     <Compile Include="AvionDALC..cs" />
+    <Compile Include="CobroEstacionamientoDALC.cs" />
     <Compile Include="DestinoDALC.cs" />
     <Compile Include="ExcepcionDALC.cs" />
     <Compile Include="FacturaDALC.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="SqlAeropuertoDALC.cs" />
     <Compile Include="SqlAvionDALC.cs" />
     <Compile Include="DALCFactory.cs" />
+    <Compile Include="SqlCobroEstacionamientoDALC.cs" />
     <Compile Include="SqlDALCFactory.cs" />
     <Compile Include="SqlDestinoDALC.cs" />
     <Compile Include="SqlExcepcionDALC.cs" />

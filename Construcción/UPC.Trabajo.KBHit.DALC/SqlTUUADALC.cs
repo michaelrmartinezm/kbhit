@@ -21,7 +21,7 @@ namespace UPC.Trabajo.KBHit.DALC
             SqlParameter codTipoVuelo;
             SqlParameter codAerolinea;
             SqlParameter fecha;
-            
+
             int iCod;
 
             try
@@ -47,7 +47,7 @@ namespace UPC.Trabajo.KBHit.DALC
                 codVuelo.ParameterName = "@CodVuelo";
                 codVuelo.SqlDbType = SqlDbType.Int;
                 codVuelo.Value = objTUUABE.CodVuelo;
-                
+
                 impuesto = cmd.CreateParameter();
                 impuesto.ParameterName = "@Impuesto";
                 impuesto.SqlDbType = SqlDbType.Float;
@@ -79,7 +79,7 @@ namespace UPC.Trabajo.KBHit.DALC
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
                 iCod = Convert.ToInt32(codTUUA.Value);
-                
+
                 cmd.Connection.Close();
 
                 cmd.Dispose();
