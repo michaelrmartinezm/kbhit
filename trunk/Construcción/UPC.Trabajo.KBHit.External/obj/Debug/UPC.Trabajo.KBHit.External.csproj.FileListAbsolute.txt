@@ -29,3 +29,26 @@ C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Softwar
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Debug\GenerateResource-ResGen.write.1.tlog
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Debug\UPC.Trabajo.KBHit.External.dll
 C:\Users\curacao\Documents\Michael - NoteBook\UPC\Año 2010\Evolucion de Software\Producto Software\Proyecto 1\v0.0\UPC.Trabajo.KBHit\UPC.Trabajo.KBHit.External\obj\Debug\UPC.Trabajo.KBHit.External.pdb
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\UPC.Trabajo.KBHit.External.pdb
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\DevExpress.Data.v9.1.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\DevExpress.Utils.v9.1.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.Data.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.Deployment.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.Design.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.Drawing.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.Windows.Forms.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.Xml.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\System.Xml.Linq.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\UIAutomationProvider.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\DevExpress.Data.v9.1.xml
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\bin\Debug\DevExpress.Utils.v9.1.xml
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\obj\Debug\UPC.Trabajo.KBHit.frmNotificacion.resources
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\obj\Debug\UPC.Trabajo.KBHit.External.recursos.resources
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\obj\Debug\UPC.Trabajo.KBHit.External.dll
+C:\Users\curacao\Desktop\KBHit\trunk\Construcción\UPC.Trabajo.KBHit.External\obj\Debug\UPC.Trabajo.KBHit.External.pdb
