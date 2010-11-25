@@ -100,7 +100,7 @@
             this.radToolStrip1.RootElement.AutoSizeMode = Telerik.WinControls.RadAutoSizeMode.WrapAroundChildren;
             this.radToolStrip1.RootElement.MinSize = new System.Drawing.Size(5, 5);
             this.radToolStrip1.ShowOverFlowButton = true;
-            this.radToolStrip1.Size = new System.Drawing.Size(524, 26);
+            this.radToolStrip1.Size = new System.Drawing.Size(524, 48);
             this.radToolStrip1.TabIndex = 1;
             this.radToolStrip1.Text = "radToolStrip1";
             this.radToolStrip1.ThemeName = "Office2007Black";
