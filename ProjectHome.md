@@ -1,0 +1,1 @@
+El Sistema de Gestión de Aeropuertos es un proyecto piloto que administra diferentes tareas vinculadas a los aeropuertos.
